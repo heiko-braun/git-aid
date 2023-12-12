@@ -1,3 +1,4 @@
 .env
 git-aid/output/*
 *.pyc
+setup.sh
