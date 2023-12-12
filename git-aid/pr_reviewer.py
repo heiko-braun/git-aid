@@ -86,7 +86,7 @@ Your task is to:
 
 Remember, your goal is to help the developer improve their code by providing constructive feedback and guidance.
 """
-        result = self.message_prreviewer(
+        result = self.message_llm(
             system_prompt=system_prompt, prompt=context_message
         )
         result_html = markdown(result)
